@@ -8,12 +8,10 @@
 Sekiz yıl sonra uyanan bir mühendisin intikam hikâyesi. 2D siberpunk platform ve kılıç dövüşü.
 
 [![Canlı site](https://img.shields.io/badge/CANLI%20S%C4%B0TE-poledrops.github.io-ff2a80?style=for-the-badge&logo=githubpages&logoColor=white)](https://poledrops.github.io/Poledrops_The_Last_CollapseSite/)
-[![Oyun deposu](https://img.shields.io/badge/OYUN-Godot%204.7-478cbf?style=for-the-badge&logo=godotengine&logoColor=white)](https://github.com/Poledrops/Poledrops_The_Last_Collapse)
 
 ![React](https://img.shields.io/badge/React-18-61dafb?logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-5-646cff?logo=vite&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-11-0055ff?logo=framer&logoColor=white)
-[![Deploy](https://github.com/Poledrops/Poledrops_The_Last_CollapseSite/actions/workflows/deploy.yml/badge.svg)](https://github.com/Poledrops/Poledrops_The_Last_CollapseSite/actions/workflows/deploy.yml)
 
 <img src="docs/screenshots/hero.png" alt="Poledrops: The Last Collapse ana sayfa" width="100%" />
 
@@ -37,7 +35,7 @@ Sekiz yıl sonra uyanan bir mühendisin intikam hikâyesi. 2D siberpunk platform
 
 ## Proje hakkında
 
-Bu depo, [Poledrops: The Last Collapse](https://github.com/Poledrops/Poledrops_The_Last_Collapse) oyununun tanıtım sitesidir. Site, oyunun kendi sanatını (başlık ekranı, kayıt sahneleri, karakter portreleri, piksel sprite) kullanır ve oyunun görsel diline sadık kalır: koyu mor, lacivert, kırmızı ve neon pembe.
+Bu depo, **Poledrops: The Last Collapse** oyununun tanıtım sitesidir. Site, oyunun kendi sanatını (başlık ekranı, kayıt sahneleri, karakter portreleri, piksel sprite) kullanır ve oyunun görsel diline sadık kalır: koyu mor, lacivert, kırmızı ve neon pembe.
 
 Oyunun kendisi Godot 4.7 ile, yalnızca GDScript kullanılarak yazılmıştır. Hikâye anlatıcı kutularla değil, oyun boyunca bulunan 41 sinematik kayıtla anlatılır. Site bu fikri arşiv bölümünde canlı olarak gösterir.
 
