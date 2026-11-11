@@ -191,8 +191,14 @@ export const T = {
         ['Kayıt sistemi', 'Sürümlü kayıt dosyası, göçler ve milestone yedeği.'],
       ],
     },
+    studio: {
+      kicker: '07 / STÜDYO',
+      title: 'CypnosGames',
+      lead: 'CypnosGames, hikâyeyi oynanışın merkezine koyan aksiyon ve RPG oyunları geliştirir. Küllerle kaplı krallıklardan mühürlü zindanlara, siberpunk harabelere uzanan üç dünya, üç hikâye.',
+      worlds: ['Küllerle kaplı krallıklar', 'Mühürlü zindanlar', 'Siberpunk harabeler'],
+    },
     final: {
-      kicker: '07 / ÇÖKÜŞE TANIK OL',
+      kicker: '08 / ÇÖKÜŞE TANIK OL',
       title: 'Sen hâlâ neden burada olduğunu bilmiyorsun.',
       lead: 'Oyun geliştirme aşamasında. Çöküşün hikâyesi kayıtlarda seni bekliyor.',
       cta1: 'Arşivi izle', cta2: 'Başa dön',
@@ -275,8 +281,14 @@ export const T = {
         ['Save system', 'Versioned save file with migrations and a milestone backup.'],
       ],
     },
+    studio: {
+      kicker: '07 / STUDIO',
+      title: 'CypnosGames',
+      lead: 'CypnosGames develops action and RPG games that put story at the heart of play. Three worlds, three stories: from ash-covered kingdoms to sealed dungeons to cyberpunk ruins.',
+      worlds: ['Ash-covered kingdoms', 'Sealed dungeons', 'Cyberpunk ruins'],
+    },
     final: {
-      kicker: '07 / WITNESS THE COLLAPSE',
+      kicker: '08 / WITNESS THE COLLAPSE',
       title: 'You still don’t know why you are here.',
       lead: 'The game is in development. The story of the Collapse is waiting in the records.',
       cta1: 'Watch the archive', cta2: 'Back to top',

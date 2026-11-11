@@ -6,7 +6,7 @@ import Combat from './components/Combat.jsx'
 import Levels from './components/Levels.jsx'
 import Archive from './components/Archive.jsx'
 import Cast from './components/Cast.jsx'
-import { Tech, Final } from './components/Tail.jsx'
+import { Tech, Studio, Final } from './components/Tail.jsx'
 
 export default function App() {
   return (
@@ -23,6 +23,7 @@ export default function App() {
         <Archive />
         <Cast />
         <Tech />
+        <Studio />
         <Final />
       </main>
       <Footer />

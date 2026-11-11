@@ -21,6 +21,25 @@ export function Tech() {
   )
 }
 
+export function Studio() {
+  const { t } = useLang()
+  return (
+    <section id="studio" className="section studio">
+      <div className="wrap">
+        <SectionHead kicker={t.studio.kicker} title={t.studio.title} lead={t.studio.lead} />
+        <ul className="studio-worlds">
+          {t.studio.worlds.map((w, i) => (
+            <Reveal as="li" key={w} delay={i * 0.08}>
+              <span className="tech-no">{String(i + 1).padStart(2, '0')}</span>
+              <h3>{w}</h3>
+            </Reveal>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )
+}
+
 export function Final() {
   const { t } = useLang()
   return (
