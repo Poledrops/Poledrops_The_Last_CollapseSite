@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { motion, useScroll, useSpring } from 'framer-motion'
 import { useLang, asset } from '../lang.jsx'
-import { GITHUB } from '../content.js'
 
 export function Progress() {
   const { scrollYProgress } = useScroll()
@@ -55,7 +54,6 @@ export function Nav() {
       </nav>
       <div className="nav-right">
         <button className="lang" onClick={toggle} aria-label="Language">{t.footer.lang}</button>
-        <a className="btn btn-sm" href={GITHUB} target="_blank" rel="noreferrer noopener">{t.nav.cta}</a>
         <button className="burger" onClick={() => setOpen((o) => !o)} aria-label="Menu" aria-expanded={open}>
           <i /><i />
         </button>

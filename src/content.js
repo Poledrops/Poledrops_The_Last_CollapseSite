@@ -1,7 +1,5 @@
 // Tüm site içeriği (TR / EN). Oyun verisi Poledrops_The_Last_Collapse deposundan alınmıştır.
 
-export const GITHUB = 'https://github.com/Poledrops/Poledrops_The_Last_Collapse'
-
 export const LEVELS = [
   { n: 1, scene: 'hospital_ward', color: '#5ff0ff', diff: 2, boss: 'Security Unit 01', portrait: null,
     tr: { name: 'UYANIŞ', place: 'Terk edilmiş hastane', desc: 'Yaraları iyileşmemiş, hafızası silinmiş bir adam A-01 odasında gözünü açar. Kırık asansör boşlukları, çıplak kablolar ve çöken tavanlar arasında ilk askerle çatıda karşılaşır.', mech: 'Hareket ve saldırı öğreticisi · kırık asansör boşlukları · elektrik kabloları', bossNote: 'Önce makineli tüfek yağmuru, sonra alan hasarlı yere çakılma.' },
@@ -122,14 +120,14 @@ export const KEYS = [
 
 export const T = {
   tr: {
-    nav: { story: 'Hikâye', combat: 'Dövüş', levels: 'Bölümler', archive: 'Arşiv', cast: 'Kadro', cta: 'GitHub' },
+    nav: { story: 'Hikâye', combat: 'Dövüş', levels: 'Bölümler', archive: 'Arşiv', cast: 'Kadro' },
     hero: {
       eyebrow: '2D SİBERPUNK · PLATFORM & HACK-AND-SLASH',
       sub: 'THE LAST COLLAPSE',
       tag: 'Sekiz yıl sonra uyandı. Hafızası yok. Yalnızca intikam var.',
       date: '2097.12.03 · SEKİZ YIL SONRA',
       cta1: 'Hikâyeye dal',
-      cta2: 'Kaynak kodu',
+      cta2: 'Bölümleri keşfet',
       chips: ['10 Bölüm', '10 Boss', '41 Kayıt', 'Android · PC'],
       scroll: 'KAYDIR',
     },
@@ -196,8 +194,8 @@ export const T = {
     final: {
       kicker: '07 / ÇÖKÜŞE TANIK OL',
       title: 'Sen hâlâ neden burada olduğunu bilmiyorsun.',
-      lead: 'Proje geliştirme aşamasında. Kaynak kod ve belgeler GitHub’da.',
-      cta1: 'GitHub’da incele', cta2: 'Başa dön',
+      lead: 'Oyun geliştirme aşamasında. Çöküşün hikâyesi kayıtlarda seni bekliyor.',
+      cta1: 'Arşivi izle', cta2: 'Başa dön',
     },
     footer: {
       credit: 'Karakter sprite’ları elie automata (ücretsiz lisans, kredi şartıyla). Ortam sanatı: ansimuz (Luis Zuno), knekko, Eris. PixelFX MIT. Motor: Godot Engine.',
@@ -206,14 +204,14 @@ export const T = {
     },
   },
   en: {
-    nav: { story: 'Story', combat: 'Combat', levels: 'Levels', archive: 'Archive', cast: 'Cast', cta: 'GitHub' },
+    nav: { story: 'Story', combat: 'Combat', levels: 'Levels', archive: 'Archive', cast: 'Cast' },
     hero: {
       eyebrow: '2D CYBERPUNK · PLATFORMER & HACK-AND-SLASH',
       sub: 'THE LAST COLLAPSE',
       tag: 'He woke up eight years later. No memory. Only revenge.',
       date: '2097.12.03 · EIGHT YEARS LATER',
       cta1: 'Dive into the story',
-      cta2: 'Source code',
+      cta2: 'Explore the levels',
       chips: ['10 Levels', '10 Bosses', '41 Records', 'Android · PC'],
       scroll: 'SCROLL',
     },
@@ -280,8 +278,8 @@ export const T = {
     final: {
       kicker: '07 / WITNESS THE COLLAPSE',
       title: 'You still don’t know why you are here.',
-      lead: 'The project is in development. Source code and docs live on GitHub.',
-      cta1: 'View on GitHub', cta2: 'Back to top',
+      lead: 'The game is in development. The story of the Collapse is waiting in the records.',
+      cta1: 'Watch the archive', cta2: 'Back to top',
     },
     footer: {
       credit: 'Character sprites by elie automata (free licence, credit required). Environment art: ansimuz (Luis Zuno), knekko, Eris. PixelFX MIT. Engine: Godot.',

@@ -1,5 +1,4 @@
 import { useLang, asset } from '../lang.jsx'
-import { GITHUB } from '../content.js'
 import { SectionHead, Reveal, Kicker } from '../fx.jsx'
 
 export function Tech() {
@@ -33,7 +32,7 @@ export function Final() {
         <Reveal delay={0.05} as="h2" className="final-title">{t.final.title}</Reveal>
         <Reveal delay={0.1} as="p" className="sec-lead center">{t.final.lead}</Reveal>
         <Reveal delay={0.15} className="hero-cta center">
-          <a className="btn btn-primary" href={GITHUB} target="_blank" rel="noreferrer noopener">{t.final.cta1}<span aria-hidden="true">↗</span></a>
+          <a className="btn btn-primary" href="#archive">{t.final.cta1}<span aria-hidden="true">↓</span></a>
           <a className="btn btn-ghost" href="#top">{t.final.cta2}<span aria-hidden="true">↑</span></a>
         </Reveal>
       </div>

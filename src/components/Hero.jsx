@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { motion, useScroll, useTransform, useReducedMotion } from 'framer-motion'
 import { useLang, asset } from '../lang.jsx'
-import { GITHUB } from '../content.js'
 import Particles from '../Particles.jsx'
 
 function Sprite() {
@@ -74,7 +73,7 @@ export default function Hero() {
 
         <motion.div className="hero-cta" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.55, duration: 0.9 }}>
           <a className="btn btn-primary" href="#story">{t.hero.cta1}<span aria-hidden="true">↓</span></a>
-          <a className="btn btn-ghost" href={GITHUB} target="_blank" rel="noreferrer noopener">{t.hero.cta2}<span aria-hidden="true">↗</span></a>
+          <a className="btn btn-ghost" href="#levels">{t.hero.cta2}<span aria-hidden="true">↓</span></a>
         </motion.div>
 
         <motion.ul className="hero-chips" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.9, duration: 1 }}>

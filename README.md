@@ -138,7 +138,6 @@ Metinlerin tamamı tek dosyada: [`src/content.js`](src/content.js).
 - **Arşive kayıt eklemek:** `RECORDS` dizisi. Kırmızı vurgulanacak cümleyi `{süslü parantez}` içine al; konuşmacılar `SPEAKERS` içinde tanımlıdır
 - **Karakter eklemek:** `CAST` dizisi ve `public/assets/portraits/` içine ilgili `.webp`
 - **Kontrol tuşları:** `KEYS` dizisi
-- **GitHub bağlantısı:** dosyanın başındaki `GITHUB` sabiti
 
 Renkler ve boşluklar `src/styles.css` içindeki `:root` jetonlarından gelir.
 
