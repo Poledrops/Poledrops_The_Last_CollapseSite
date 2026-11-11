@@ -1,0 +1,26 @@
+{
+  "name": "poledrops-the-last-collapse-site",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "framer-motion": "^11.11.17",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  },
+  "description": "Poledrops: The Last Collapse için tanıtım sitesi (React + Vite)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Poledrops/Poledrops_The_Last_CollapseSite.git"
+  },
+  "homepage": "https://poledrops.github.io/Poledrops_The_Last_CollapseSite/"
+}
